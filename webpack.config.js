@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 // env
-const buildDirectory = './dist/';
+const buildDirectory = '/dist/';
 var APP_DIR = path.resolve(__dirname, 'src/');
 module.exports = {
   entry: APP_DIR + '/index.js',
